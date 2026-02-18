@@ -14,6 +14,18 @@ elif a < b:
 else :
     print(f"Nilai a = {a} lebih sama dengan b = {b}")   #else hanya 1 & opsional
 
+#MATCH CASE
+c = 8
+match c:
+    case 1:
+        print("c value is 1")
+    case 4:
+        print("c value is 4")
+    case 8:
+        print("c value is 8")
+    case _:
+        print("c value is not 1, 4, or 8")
+
 #SHORTHAND IF 
 # --> statement hanya 1 sehingga bisa ditaruh di 1 line
 if a*2 > b : print("a dikali 2 lebih besar dari b")
